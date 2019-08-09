@@ -1,0 +1,31 @@
+mysql.com
+downloads
+mysql connectors
+connector/j
+go to download page (윈도우)
+
+https://dev.mysql.com/downloads/connector/j/
+https://dev.mysql.com/downloads/windows/installer/8.0.html
+설치 되어있을것
+C:\Program Files (x86)\MySQL\Connector J 8.0에 있는
+jar 파일이 자바에서 활용될 라이브러리 파일
+
+D:\dev\libs\jdbc 에 mysql-connector-java-8.0.15.jar 복사
+(경로는 맘대로 해도 됨)
+--------------------------------------------------------------------
+
+
+https://www.oracle.com/technetwork/java/index.html
+프로덕트 - 디벨로퍼 - 데이터베이스에 랭기지에 있는 자바
+https://www.oracle.com/database/technologies/appdev/jdbc.html
+jdbc download
+https://www.oracle.com/technetwork/database/application-development/jdbc/downloads/index.html
+맞는 버전 선택
+ojdbc8.jar (4,036,257 bytes)  다운
+
+C:\app\tjoeun304\virtual\product\12.2.0\dbhome_1\jdbc\lib에서도 있음
+
+
+프로젝트 만든뒤 프로젝트 우클릭-빌드패스 - 컨피겨 빌드패스 ..
+
+libraries 탭-add external jars, 경로에서 두 자르파일 선택

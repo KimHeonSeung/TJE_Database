@@ -1,0 +1,28 @@
+데베
+java.sun.com
+
+맥에서ㄷ 쓰기위해서 mySql 사용
+메뉴 - 디벨로퍼즈 - 데이터베이스즈
+다운로즈
+오라클데이터베이스 12c release2
+마이 에스큐엘 커뮤니티 에디션 고투 다운로드페이지 윈도우즈버전
+324.3 메가짜리로 하고 로그인 안하고 다운가능
+
+mySql은 디폴트로 하고 next excute 넥스트 excute
+Group Replication은 클러스터 : 여러대의 컴퓨터에 걸쳐서
+설치는 standard로. 
+포트번호는 기본으로
+SystemManager304
+
+오라클 SQL DEVOLOPER 프로그램에 예제 가져오기
+cmd (관리자권한)
+sqlplus / as sysdba
+ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
+@ C:\hr_main.sql
+1 : hr, 2 : users,  3 : temp, 4 : log
+conn hr/hr
+연결되었습니다.
+sql developer 들어가서
+접속부분에 + 누르고
+HR/ hr/ hr 적고 테스트 누르기
+실패하면 SID 에 orcl 입력(아까 설치시에 기본입력되었던)
